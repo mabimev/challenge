@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #abcbf544;
+    margin: 0;
+}
+
+@media (min-width: 1100px){
+    .container {
+        display: flex;
+        gap: 20px;
+    }
+}
+
+
+
+.input-panel, .output-panel{
+    width: 100%;
+    padding: 2.5rem;
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+h3{
+    font-size: 1rem;
+    color: #777;
+}
+
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: none;
+    box-sizing: border-box;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#placeholderImage {
+    max-width: 100%;
+    height: auto;
+}
+
+#placeholderMessage {
+    font-size: 16px;
+    color: #777;
+    text-align: center;
+}
+
+#copyButton {
+    display: none;
+}
